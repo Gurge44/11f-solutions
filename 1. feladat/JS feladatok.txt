@@ -1,0 +1,15 @@
+1. Készíts weblapot, amelyben 5 fajta termék közül lehet választani legördülő listából, és mellette meg lehet adni értékeléseket (1-5).
+Az egyik gombra kattintva a termék legyen elhelyezve úgy, hogy alatta az értékelés is szerepljen! Az értékelés *-okkal legyen jelölve, tehát pl. 3 értékelés esetén *** legyen írva!
+A generálás után, ha a termékre kattintunk, akkor legyen lehetőség az értékelést módosítani!
+
+2. Készíts weblapot, amelyben termékek akciózását lehet szimulálni a következőképpen:
+-Lehessen beolvasni egy értéket (n), amely a termékek árát jelenti, majd generálja le a termékek árát!
+-Lehessen beolvasni egy ár határt, és egy akció százalékot, majd az összes termék ára, amely az árhatár felett van, az akciós ár százalékával legyen csökkentve. Az akciós termékek legyenek zöld színnel jelölve! A termékek árait helyezd el Bootstrap rácsba!
+
+3. A "Mephisto" nevű játékban a játékban szerzett kristály segítségével tárgyakat lehet vásárolni. A tárgy vásárlásának
+szimulálására készíts weblapot a kövektezők alapján:
+-A játékos 0 kristállyal indul, és egy "Kristály szerzése" gombra kattintva 10000 kristály hozzáadódik az aktuális
+mennyiséghez. Az aktuális kristály értéke jelenjen meg a weblapon!
+-Legördülő listából lehessen legalább 5 fajta tárgy közül választani! A kódban úgy oldd meg, hogy könnyen lehessen bővíteni!
+-A tárgy kiválasztása után legyen egy "vásárlás" gomb, amelyre kattintva külön div-be kerüljön be a vásárolt tárgy neve. Vásárlás után vond le a kristályok számából a tárgy árát!
+-Ha nincs elég kristályod, előugró ablakban jelenjen meg, hogy nincs elég kristály!

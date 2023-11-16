@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Termékek</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1>Termékek értékelése</h1>
+        <form>
+            <p>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-info dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        Termék
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li onclick="Select('CPU')"><a class="dropdown-item" href="#">CPU</a></li>
+                        <li onclick="Select('RAM')"><a class="dropdown-item" href="#">RAM</a></li>
+                        <li onclick="Select('CD-RW')"><a class="dropdown-item" href="#">CD-RW</a></li>
+                        <li onclick="Select('SSD')"><a class="dropdown-item" href="#">SSD</a></li>
+                        <li onclick="Select('HDD')"><a class="dropdown-item" href="#">HDD</a></li>
+                    </ul>
+                </div>
+            </p>
+            <p>
+                Értékelés:
+                <input type="number" name="rating" id="rating" onchange="Rate()" max="5" min="1">
+            </p>
+        </form>
+        <div id="name"></div>
+        <div id="stars"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

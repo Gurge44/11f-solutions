@@ -1,0 +1,14 @@
+body, input {
+    background-color: rgb(40, 40, 40);
+    color: lightgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 50px;
+}
+
+#name {
+    font-size: 100px;
+}
